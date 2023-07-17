@@ -112,6 +112,28 @@ nav li a {
 
 
 /* <!-- main section start --> */
+
+/* sponsor section start  */
+
+.sponsor-container {
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid rgb(238, 227, 227);
+    border-bottom: 1px solid rgb(238, 227, 227);
+    padding: 20px 20px;
+}
+
+.sponsor-container img {
+    width: 7%;
+}
+
+
+/* sponsor section end */
+
+
 /* <!-- main section end --> */
 
 
