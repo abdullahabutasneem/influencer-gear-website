@@ -133,6 +133,85 @@ nav li a {
 
 /* sponsor section end */
 
+/* <!-- Popular Collection section start  --> */
+
+.popular-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.popular-title {
+    color: #3A3A3A;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.popular-collection-container {
+    max-width: 600px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+}
+
+.card-image  img {
+    width: 100%;
+}
+
+.card-description .card-title {
+    color: #18191F;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.card-description .card-money {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 13px;
+    margin: 5px 0;
+}
+
+.card-description .fa-solid {
+    color: #FB8200;
+    font-size: 7px;
+}
+
+.card-description span {
+    margin-left: 10px;
+    font-size: 7px;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+
+.card-description .card-paragraph {
+    width: 40%;
+    font-size: 7px;
+    color: #787885;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    line-height: 10px;
+}
+
+.see-more {
+    text-align: end;
+    margin: 10px 0;
+}
+
+.popular-span, .popular-span .fa-solid .fa-arrow-right {
+    font-size: 10px;
+    color: #E02C6D;
+    font-weight: 600;
+}
+
+
+/* <!-- Popular Collection section end --> */
+
 
 /* <!-- main section end --> */
 
