@@ -268,4 +268,34 @@ nav li a {
 
 
 /* <!-- footer section start --> */
+
+footer {
+    background: #0A0826;
+    color: white;
+}
+
+.footer-container {
+    padding: 20px 0;
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-container h3 {
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.footer-container p {
+    font-size: 7px;
+    font-weight: 200;
+}
+
+.footer-container .icon-container .fa-brands, .fa-regular{
+    background: ;
+    font-size: 8px;
+    font-weight: 300;
+    margin: 0 5px;
+}
+
 /* <!-- footer section end --> */
