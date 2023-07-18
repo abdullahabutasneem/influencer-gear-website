@@ -74,8 +74,41 @@
         max-width: 300px;
         grid-template-columns: repeat(1, 1fr);
         gap: 5px;
+        padding: 0 8px;
     }
+
+    .feature-content {
+        text-align: center;
+    }
+
+    .feature-product-container .feature-content {
+        padding-left: 0;
+    }
+
+    .feature-content p {
+        width: 80%;
+        font-size: 10px;
+        margin: 10px auto;
+    }
+    .feature-content button {
+        margin-bottom: 20px;
+    }
+    
 
 
     /* <!-- Popular Collection section end --> */
+
+    /* feature section start  */
+
+    .feature-product-container {
+        max-width: 300px;
+        margin: 20px auto;
+        flex-direction: column-reverse;
+    }
+
+    .feature-product-container .img-container {
+        width: 80%;
+    }
+
+    /* feature section end */
 }

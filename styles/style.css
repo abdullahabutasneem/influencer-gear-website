@@ -153,7 +153,9 @@ nav li a {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
+    padding: 0 14px;
 }
+
 
 .card {
     border-radius: 5px;
@@ -201,6 +203,7 @@ nav li a {
 .see-more {
     text-align: end;
     margin: 10px 0;
+    padding-right: 14px;
 }
 
 .popular-span, .popular-span .fa-solid .fa-arrow-right {
@@ -211,6 +214,52 @@ nav li a {
 
 
 /* <!-- Popular Collection section end --> */
+
+/* <!-- feature product section start --> */
+
+.feature-product-container {
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature-product-container .img-container {
+    width: 60%;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.feature-product-container .feature-content {
+    padding-left: 25px;
+}
+
+.feature-content h2 {
+    color: #0A0826;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.feature-content p {
+    width: 65%;
+    color: #6C6C6C;
+    font-size: 8px;
+    margin: 10px 0;
+}
+
+.feature-content button {
+    background-color: #E02C6D;
+    color: white;
+    font-size: 10px;
+    border: 0;
+    padding: 6px 12px;
+}
+
+/* <!-- feature product section end --> */
 
 
 /* <!-- main section end --> */
